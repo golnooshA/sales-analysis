@@ -29,7 +29,6 @@ The dataset was downloaded from Kaggle:
 ---
 
 ## 📊 Dashboard Preview
-*(Insert screenshot here after exporting from Power BI)*  
 
 ![Dashboard Screenshot](docs/superstore_dashboard.png)
 
@@ -44,6 +43,7 @@ The dataset was downloaded from Kaggle:
 ## 📄 Report
 A one-page PDF summary with project workflow, KPIs, and dashboard screenshot is available here:  
 👉 [docs/report.pdf](docs/report.pdf)
+
 
 
 
