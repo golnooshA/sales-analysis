@@ -5,11 +5,6 @@ This project analyzes the **Superstore Sales dataset** to explore sales, profit,
 The dataset was downloaded from Kaggle:  
 🔗 [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download)
 
-The workflow includes:
-- **Data Cleaning** → Excel  
-- **Data Analysis** → PostgreSQL (pgAdmin, SQL queries)  
-- **Visualization** → Power BI (interactive dashboard with KPIs and charts)  
-
 ---
 
 ## 🛠 Tools & Technologies
@@ -49,5 +44,6 @@ The workflow includes:
 ## 📄 Report
 A one-page PDF summary with project workflow, KPIs, and dashboard screenshot is available here:  
 👉 [docs/report.pdf](docs/report.pdf)
+
 
 
