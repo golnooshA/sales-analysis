@@ -22,7 +22,7 @@ The dataset was downloaded from Kaggle:
 /queries_results                 # Exported result tables from queries
 /superstore.xlsx                 # Cleaned dataset + Pivot Tables
 /superstore_dashboard.pbix       # Power BI Dashboard file
-/docs/report.pdf                # One-page project summary (with screenshots)
+/docs/report.pdf                 # One-page project summary (with screenshots)
 
 ```
 
@@ -43,6 +43,7 @@ The dataset was downloaded from Kaggle:
 ## 📄 Report
 A one-page PDF summary with project workflow, KPIs, and dashboard screenshot is available here:  
 👉 [docs/report.pdf](docs/report.pdf)
+
 
 
 
