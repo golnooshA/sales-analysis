@@ -47,6 +47,8 @@ A **Date Table** was created in Power BI to support accurate time-series analysi
 * **Top Region:** West → \~\$725K (32% of total sales)
 * **2014 Quantity Sold:** 7,581 units
 
+![Superstore Dashboard](./powerbi/superstore_dashboard.png)
+
 ---
 
 ## 4. Insights Deep Dive
@@ -83,5 +85,6 @@ A **Date Table** was created in Power BI to support accurate time-series analysi
 * **Diversify Product Mix:** Reduce over-reliance on Technology by strengthening Furniture and Office Supplies offerings.
 * **Optimize Discounts:** Monitor discount strategies, especially in Furniture, to protect profitability margins.
 * **Customer Retention Programs:** Introduce loyalty incentives for repeat buyers to stabilize long-term sales.
+
 
 
