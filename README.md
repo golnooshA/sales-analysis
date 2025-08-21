@@ -51,24 +51,24 @@ A **Date Table** was created in Power BI to support accurate time-series analysi
 
 ## 4. Insights Deep Dive
 
-### 🛒 Category Performance
+### Category Performance
 
 * **Technology** dominates with **36% of total sales**, indicating it is the main revenue driver.
 * **Furniture (32%)** and **Office Supplies (31%)** are nearly equal but slightly lagging behind Technology.
 * Strategy: Technology is the “star” category, but Furniture and Office Supplies still represent solid opportunities.
 
-### 🌍 Regional Performance
+### Regional Performance
 
 * **West (32%)** and **East (30%)** are the strongest regions.
 * **South (17%)** is the weakest, underperforming compared to others.
 * Focused regional campaigns could improve South’s contribution.
 
-### 📈 Trends & Growth
+### Trends & Growth
 
 * Sales showed steady growth across the years, peaking in **2017 with \$733K**, a **+55% increase from 2015**.
 * Seasonal peaks are visible in **Q4 (October–December)**, with December consistently showing high revenues.
 
-### 📦 Quantity & Volume
+### Quantity & Volume
 
 * In 2014, **7,581 units** were sold.
 * Quantity trends align with sales, spiking toward the year-end (holiday season effect).
@@ -77,10 +77,11 @@ A **Date Table** was created in Power BI to support accurate time-series analysi
 
 ## 5. Recommendations
 
-* 📈 **Expand Technology Product Lines:** Since Technology generates the highest revenue share, introducing complementary items (e.g., accessories, bundles) could boost sales further.
-* 🎯 **Boost South Region Sales:** Consider targeted discounts, localized promotions, or distribution improvements to raise performance.
-* 🗓️ **Leverage Q4 Peaks:** Run holiday promotions and loyalty campaigns before Q4 to maximize already strong seasonal sales.
-* 💡 **Diversify Product Mix:** Reduce over-reliance on Technology by strengthening Furniture and Office Supplies offerings.
-* 💰 **Optimize Discounts:** Monitor discount strategies, especially in Furniture, to protect profitability margins.
-* 🤝 **Customer Retention Programs:** Introduce loyalty incentives for repeat buyers to stabilize long-term sales.
+* **Expand Technology Product Lines:** Since Technology generates the highest revenue share, introducing complementary items (e.g., accessories, bundles) could boost sales further.
+* **Boost South Region Sales:** Consider targeted discounts, localized promotions, or distribution improvements to raise performance.
+* **Leverage Q4 Peaks:** Run holiday promotions and loyalty campaigns before Q4 to maximize already strong seasonal sales.
+* **Diversify Product Mix:** Reduce over-reliance on Technology by strengthening Furniture and Office Supplies offerings.
+* **Optimize Discounts:** Monitor discount strategies, especially in Furniture, to protect profitability margins.
+* **Customer Retention Programs:** Introduce loyalty incentives for repeat buyers to stabilize long-term sales.
+
 
