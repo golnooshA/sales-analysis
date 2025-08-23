@@ -1,91 +1,95 @@
-
-# 📊 Superstore Sales Analysis
+# 📊 Superstore Sales Analysis — SQL · Excel · Power BI
 
 ---
 
-## 1. Background Overview
+## 1. Project Overview
 
-This project analyzes the **Superstore Dataset** ([Kaggle link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)), which contains order-level information such as sales, profit, category, region, and customer details.
+This project analyzes the **Superstore Dataset** ([Kaggle link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)), which contains order-level information such as sales, profit, category, region, and customer details.  
 
-The main objectives are to uncover:
+The objective was to build an **end-to-end data analysis pipeline** and an **interactive dashboard** to answer key business questions:
 
-* What are the sales trends across years?
-* Which categories and regions contribute the most?
-* Where are the growth opportunities?
-* How can profitability be improved?
+- What are the overall sales and profitability trends over time?  
+- Which product categories and regions contribute the most?  
+- How do sales volumes (units sold) evolve across months and years?  
+- Where are the growth opportunities and how can profitability be improved?  
 
 **Workflow:**
-
-* **SQL** → inspection, cleaning, and business queries (`all_queries.sql`, results in `/queries_results/`)
-* **Excel** → pivot tables & charts (`/excel/superstore_analysis.xlsx`)
-* **Power BI** → interactive dashboard (`/powerbi/superstore_dashboard.pbix`)
+- **SQL** → inspection, cleaning, and business queries (`/sql/all_queries.sql`, outputs in `/sql/queries_results/`)  
+- **Excel** → pivot tables & initial visualizations (`/excel/superstore_analysis.xlsx`)  
+- **Power BI** → interactive dashboard (`/powerbi/superstore_dashboard.pbix`)  
 
 ---
 
-## 2. Data Structure Overview
+## 2. Data Structure
 
-The dataset includes:
+The dataset includes:  
 
-* **Dates**: Order Date, Ship Date
-* **Numerical**: Sales, Quantity, Profit, Discount
-* **Categorical**: Category, Sub-Category, Region, Country, Customer
+- **Dates:** Order Date, Ship Date  
+- **Numerical:** Sales, Quantity, Profit, Discount  
+- **Categorical:** Category, Sub-Category, Region, Country, Customer  
 
-A **Date Table** was created in Power BI to support accurate time-series analysis.
+A **Date Table** was created in Power BI to support accurate time-series and YoY analysis.  
 
 ---
 
 ## 3. Executive Summary
 
-* **Total Sales (2014–2017):** \~\$2.29M
-* **Annual Sales:**
+- **Total Sales (2014–2017):** ~\$2.30M  
+- **Total Profit:** ~\$286K  
+- **Overall Profit Margin:** ~12%  
+- **Total Units Sold:** ~38K  
 
-  * 2014 → \$484K
-  * 2015 → \$470K
-  * 2016 → \$609K
-  * 2017 → \$733K (📈 +55% vs. 2015)
-* **Top Category:** Technology → \~\$836K (36% of total sales)
-* **Top Region:** West → \~\$725K (32% of total sales)
-* **2014 Quantity Sold:** 7,581 units
+- **Top Category:** Technology (~36% of total sales)  
+- **Top Region:** West (~32% of total sales)  
 
-![Superstore Dashboard](./docs/superstore_dashboard.png)
+- **Annual Sales Growth:** Sales peaked in **2017 with \$733K** (📈 +55% vs. 2015).  
+- **Seasonality:** Strong Q4 peaks every year, with December consistently the highest month.  
 
 ---
 
-## 4. Insights Deep Dive
+## 4. Dashboard Preview
 
-### Category Performance
+![Superstore Dashboard](./powerbi/superstore_dashboard.png)
 
-* **Technology** dominates with **36% of total sales**, indicating it is the main revenue driver.
-* **Furniture (32%)** and **Office Supplies (31%)** are nearly equal but slightly lagging behind Technology.
-* Strategy: Technology is the “star” category, but Furniture and Office Supplies still represent solid opportunities.
-
-### Regional Performance
-
-* **West (32%)** and **East (30%)** are the strongest regions.
-* **South (17%)** is the weakest, underperforming compared to others.
-* Focused regional campaigns could improve South’s contribution.
-
-### Trends & Growth
-
-* Sales showed steady growth across the years, peaking in **2017 with \$733K**, a **+55% increase from 2015**.
-* Seasonal peaks are visible in **Q4 (October–December)**, with December consistently showing high revenues.
-
-### Quantity & Volume
-
-* In 2014, **7,581 units** were sold.
-* Quantity trends align with sales, spiking toward the year-end (holiday season effect).
+**Key Features:**
+- KPI cards for *Total Sales, Profit, Profit Margin, Units Sold*  
+- **Monthly Sales Performance** (Total, YoY%, YTD)  
+- **Sales by Category & Region** breakdowns  
+- **Monthly Units Sold trend**  
+- **Profit Margin trend** across 2014–2017  
 
 ---
 
-## 5. Recommendations
+## 5. Insights
 
-* **Expand Technology Product Lines:** Since Technology generates the highest revenue share, introducing complementary items (e.g., accessories, bundles) could boost sales further.
-* **Boost South Region Sales:** Consider targeted discounts, localized promotions, or distribution improvements to raise performance.
-* **Leverage Q4 Peaks:** Run holiday promotions and loyalty campaigns before Q4 to maximize already strong seasonal sales.
-* **Diversify Product Mix:** Reduce over-reliance on Technology by strengthening Furniture and Office Supplies offerings.
-* **Optimize Discounts:** Monitor discount strategies, especially in Furniture, to protect profitability margins.
-* **Customer Retention Programs:** Introduce loyalty incentives for repeat buyers to stabilize long-term sales.
+### 📦 Product Categories
+- **Technology** dominates with 36% of sales (main revenue driver).  
+- **Furniture** and **Office Supplies** contribute almost equally (~32% each) but lag slightly behind Technology.  
+- → Opportunity to diversify the product mix and strengthen these categories.  
 
+### 🌍 Regional Performance
+- **West (32%)** and **East (30%)** are strongest.  
+- **South (17%)** is underperforming.  
+- → Targeted campaigns in South could improve contribution.  
 
+### 📈 Trends & Growth
+- Sales grew steadily from 2014 → 2017, peaking at \$733K.  
+- Clear seasonal spikes in **Q4 (holiday season effect)**.  
+- Units sold also follow this seasonal trend.  
 
+### 💰 Profitability
+- Average **Profit Margin ~12%**.  
+- Margin volatility indicates discount strategies impact profitability.  
+- → Optimizing discounts (especially in Furniture) could protect margins.  
+
+---
+
+## 6. Recommendations
+
+1. **Expand Technology Product Lines** → Accessories/bundles to leverage the top-performing category.  
+2. **Boost South Region Sales** → Targeted promotions, localized marketing, and distribution improvements.  
+3. **Leverage Q4 Peaks** → Launch loyalty programs and early holiday campaigns before Q4.  
+4. **Diversify Product Mix** → Reduce reliance on Technology, strengthen Furniture and Office Supplies.  
+5. **Optimize Discounts** → Monitor discount impact on margins to avoid profit erosion.  
+6. **Retention Programs** → Incentivize repeat buyers to stabilize long-term revenue.  
 
